@@ -3,7 +3,7 @@ import com.google.common.base.Objects;
 public class ObjectTest {
 
   public void run() {
-    Student s1 = new Student("Mahesh", "Parashar", 1, "VI");
+    Student s1 = new Student("Sharan", "Parashar", 1, "VI");
     Student s2 = new Student("Suresh", null, 3, null);
 
     System.out.println(s1.equals(s2));

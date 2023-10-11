@@ -84,5 +84,10 @@ public class App {
       System.out.println("======================== RANGE CLASS ========================");
       RangeTest rangeTest = new RangeTest();
       rangeTest.testRange();
+
+      // Throwables class
+      System.out.println("======================== THROWABLES CLASS ========================");
+      ThrowablesTest throwablesTest = new ThrowablesTest();
+      throwablesTest.run();
    }
 }
